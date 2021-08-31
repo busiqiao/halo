@@ -16,6 +16,7 @@ public class Application {
         // Customize the spring config location
         System.out.println("看这里！！！");
         System.out.println("这是一个git部署测试");
+        System.out.println("再试一次！！！");
         System.setProperty("spring.config.additional-location",
             "optional:file:${user.home}/.halo/,optional:file:${user.home}/halo-dev/");
 
